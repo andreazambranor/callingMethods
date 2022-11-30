@@ -8,23 +8,27 @@ namespace callingMethods
 {
     public class Number
     {
-        public static int Math(int a)
+        public int Value { get; set; }
+
+        public static int Math(int numberOne)
         {
-            
-            int b = a + 1;
-            return b;
+            Number numberTwo = new Number();
+            numberTwo.Value = numberOne+10;
+            return numberTwo.Value;
         }
 
-        public static int Math2(int b)
+        public static int Math2(int numberTwo)
         {
-            int c = b + 2;
-            return c;
+            Number numberThree = new Number();
+            numberThree.Value = numberTwo+10;
+            return numberThree.Value;
         }
 
-        public static int Math3(int c)
+        public static int Math3(int numberThree)
         {
-            int d = c + 3;
-            return d;
+            Number numberTotal = new Number();
+            numberTotal.Value = numberThree+10;
+            return numberTotal.Value;
         }
 
     }

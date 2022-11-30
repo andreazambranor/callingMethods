@@ -15,15 +15,16 @@ namespace callingMethods
         {
 
             //askED the user what number they want to do the math operations on
-            Console.WriteLine("Write a number to pass along the methods");
-            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("How old are you?");
 
-            Number A = new Number();
-            a = A.Math3(c);
-            Console.WriteLine("total is ", a);
 
-                
+            Number numberOne = new Number();
+            numberOne.Value = Convert.ToInt32(Console.ReadLine());
+            numberTotal = Number (numberTotal.value);
+            Console.WriteLine("in 30 years you will be ", numberTotal.Value);
+
             
+ 
         }
 
 
