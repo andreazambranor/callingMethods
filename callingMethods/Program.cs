@@ -20,9 +20,9 @@ namespace callingMethods
 
             Number A = new Number(a);
            
-            Console.WriteLine(A.Math1(a));
-            Console.WriteLine(A.Math2(a));
-            Console.WriteLine(A.Math3(a));
+            Console.WriteLine("Method one result: " + A.Math1(a));
+            Console.WriteLine("Method two result: " + A.Math2(a));
+            Console.WriteLine("Method three result: " + A.Math3(a));
             Console.ReadLine();
  
         }
