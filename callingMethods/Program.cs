@@ -18,10 +18,12 @@ namespace callingMethods
             Console.WriteLine("Write a number to pass along the methods");
             int a = Convert.ToInt32(Console.ReadLine());
 
-            Number A = new Number(a = A.Math1(b));
+            Number A = new Number(a);
            
-            Console.WriteLine(A.Math2(c));
-            Console.WriteLine(A.Math3(d));            
+            Console.WriteLine(A.Math1(a));
+            Console.WriteLine(A.Math2(a));
+            Console.WriteLine(A.Math3(a));
+            Console.ReadLine();
  
         }
 

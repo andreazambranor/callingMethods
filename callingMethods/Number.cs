@@ -10,21 +10,17 @@ namespace callingMethods
     {
         public static int Math1(int a)
         {
-            
-            int b = a + 1;
-            return b;
+            return a+1;
         }
 
-        public static int Math2(int b)
+        public static int Math2(int a)
         {
-            int c = b + 2;
-            return c;
+            return a+2;
         }
 
-        public static int Math3(int c)
+        public static int Math3(int a)
         {
-            int d = c + 3;
-            return d;
+            return a+3;
         }
 
     }
