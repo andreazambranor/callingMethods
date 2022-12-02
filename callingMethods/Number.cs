@@ -8,17 +8,17 @@ namespace callingMethods
 {
     public class Number
     {
-        public static int Math1(int a)
+        public int Math1(int a)
         {
             return a+1;
         }
 
-        public static int Math2(int a)
+        public int Math2(int a)
         {
             return a+2;
         }
 
-        public static int Math3(int a)
+        public int Math3(int a)
         {
             return a+3;
         }
